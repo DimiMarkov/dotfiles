@@ -1,4 +1,4 @@
-ZSH=~/.oh-my-zsh/
+ZSH=~/.oh-my-zsh
 
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
