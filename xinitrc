@@ -16,7 +16,7 @@ xmodmap ~/.xmodmap
 ~/bin/keyboard_reconfig
 
 # lock screen after 10 minutes
-xautolock -time 10 -locker /home/segfault/.config/i3/lock.sh &
+xautolock -time 10 -locker /home/kwiesmueller/.config/i3/lock.sh &
 
 # xrandr management
 ~/bin/xrefresh

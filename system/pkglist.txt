@@ -74,6 +74,7 @@ man-db
 man-pages
 masterpdfeditor
 mdadm
+mkinitcpio-sd-zfs
 nano
 netctl
 nmap
@@ -139,6 +140,7 @@ xorg-xinit
 xorg-xinput
 xorg-xprop
 yay
+zfs-dkms
 zsh
 zsh-autosuggestions
 zsh-completions

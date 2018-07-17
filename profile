@@ -7,7 +7,7 @@ export DEFAULT_USER=$(whoami)
 export EDITOR=vim
 export BROWSER="google-chrome-stable --profile-directory=Default"
 export PBCLI=pb-docker
-export PATH=/home/segfault/bin:$PATH
+export PATH=/home/kwiesmueller/bin:$PATH
 
 export GOPATH=$HOME/go
 

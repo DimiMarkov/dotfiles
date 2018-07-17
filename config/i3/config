@@ -84,8 +84,8 @@ workspace $ws9 output DP1-1
 workspace $ws10 output DP1-1
 
 # start visual studio code editor and virtuabox on specific workspaces
-assign [class="Code"] $ws8
-assign [class="VirtualBox"] $ws10
+#assign [class="Code"] $ws8
+#assign [class="VirtualBox"] $ws10
 
 
 ##################
@@ -198,12 +198,6 @@ for_window [instance="dropdownshell"] resize set 2000 1000
 for_window [instance="dropdownshell"] move scratchpad
 for_window [instance="dropdownshell"] border pixel 3
 
-bindsym $mod+Shift+t [instance="todoist"] scratchpad show; [instance="todoist"] move position center
-for_window [instance="todoist"] floating enable
-for_window [instance="todoist"] resize set 1600 1300
-for_window [instance="todoist"] move scratchpad
-for_window [instance="todoist"] border pixel 3
-
 bindsym $mod+Shift+y [instance="pythonshell"] scratchpad show; [instance="pythonshell"] move position center
 for_window [instance="pythonshell"] floating enable
 for_window [instance="pythonshell"] resize set 1200 500
@@ -225,5 +219,3 @@ exec --no-startup-id $term +transparent -name pythonshell --font "xft:DejaVu San
 exec --no-startup-id $term +transparent -name ranger -e ranger
 
 exec --no-startup-id $term -name calendar -e calendar
-exec --no-startup-id $term -name todoist -e todoist
-
