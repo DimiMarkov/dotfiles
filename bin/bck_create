@@ -1,0 +1,8 @@
+export CURBCK=backup-$(date +%G-%m-%dT%T%Z)
+export LSTBCK=$(cat ~/.last_backup_name)
+echo ${CURBCK} > ~/.last_backup_name
+echo "Creating new Backup: ${CURBCK} based on ${LSTBCK}"
+zfs snapshot -r vault@${CURBCK}
+#sudo -E zfs send -R vault@${CURBCK} | (sudo zfs recv -F bck)
+sudo -E zfs send -I @backup-init -R vault@${CURBCK} | (sudo zfs recv -F bck)
+#sudo -E zfs rollback -R bck@${CURBCK}

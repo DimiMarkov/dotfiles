@@ -1,0 +1,2 @@
+sudo cryptsetup open /dev/sda1 encBck --key-file /home/kwiesmueller/.secret/.bckkey
+sudo zpool import -R /bck bck

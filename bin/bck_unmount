@@ -1,0 +1,2 @@
+sudo zpool export bck
+sudo cryptsetup close encBck
