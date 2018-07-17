@@ -25,7 +25,6 @@ dmenu
 dnsmasq
 docker
 e2fsprogs
-eclipse-java
 efibootmgr
 exfat-utils
 fakeroot
