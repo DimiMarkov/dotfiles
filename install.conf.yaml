@@ -44,11 +44,6 @@
 
     ~/bin: bin
 
-    /usr/lib/eclipse/eclipse.ini:
-      force: true
-      relative: false
-      path: eclipse.ini
-
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
 
