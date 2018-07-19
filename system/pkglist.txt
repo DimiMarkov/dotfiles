@@ -1,4 +1,5 @@
 alsa-utils
+arandr
 arduino-avr-core
 autoconf
 automake
@@ -15,6 +16,7 @@ clipmenu
 coreutils
 cryptsetup
 cups
+delve
 device-mapper
 dhclient
 dhcpcd
@@ -26,6 +28,7 @@ dnsmasq
 docker
 e2fsprogs
 efibootmgr
+enpass-bin
 exfat-utils
 fakeroot
 feh
@@ -35,6 +38,7 @@ filesystem
 findutils
 flameshot
 flex
+font-manager
 gawk
 gcc
 gcc-libs
@@ -43,6 +47,7 @@ gimp
 git
 glibc
 google-chrome
+gparted
 grep
 groff
 grub
@@ -73,11 +78,14 @@ man-db
 man-pages
 masterpdfeditor
 mdadm
+mercurial
 mkinitcpio-sd-zfs
 nano
 netctl
 nmap
+nodejs
 noto-fonts
+npm
 openssh
 openvpn
 openvpn-update-systemd-resolved
@@ -99,6 +107,7 @@ read-edid
 redshift
 reiserfsprogs
 rofi
+rsync
 rxvt-unicode-wcwidthcallback
 s-nail
 screen
@@ -111,9 +120,11 @@ systemd
 systemd-sysvcompat
 tar
 terminus-font
+termite
 texinfo
 ttf-dejavu
 ttf-font-awesome
+ttf-material-icons
 urxvt-perls
 urxvt-resize-font-git
 usbutils
@@ -135,11 +146,14 @@ xiccd
 xmlstarlet
 xorg-server
 xorg-xbacklight
+xorg-xev
+xorg-xfd
 xorg-xinit
 xorg-xinput
 xorg-xprop
 yay
 zfs-dkms
+zoom
 zsh
 zsh-autosuggestions
 zsh-completions
