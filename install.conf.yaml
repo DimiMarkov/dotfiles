@@ -9,6 +9,7 @@
 - link:
     ~/.dotfiles: ''
     ~/.apple-keyboard.xkb: apple-keyboard.xkb
+    ~/.lenovo-keyboard.xkb: lenovo-keyboard.xkb
     ~/.bash_profile:
       force: true
       path: bash_profile

@@ -1,0 +1,23 @@
+xkb_keymap {
+
+    xkb_keycodes "evdev+aliases(qwerty)" {
+        augment "evdev(evdev)"
+
+        <LALT> = 133;
+        <LWIN> = 64;
+        alias <ALGR> = <LWIN>;
+    };
+
+    xkb_types "complete" {
+        augment "complete"
+    };
+
+    xkb_compatibility "complete" {
+        augment "complete(complete)"
+    };
+
+    xkb_symbols "pc+us+inet(evdev)" {
+        augment "pc+us+inet(evdev)"
+    };
+
+};
