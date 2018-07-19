@@ -4,3 +4,6 @@ for id in $(xinput list|grep "Apple Keyboard"|sed -E 's/.*id=([0-9]+).*/\1/'); d
   xkbcomp -i $id ~/.apple-keyboard.xkb $DISPLAY >/dev/null
 done 
 
+for id in $(xinput list|grep "AT Translated Set 2 keyboard"|sed -E 's/.*id=([0-9]+).*/\1/'); do
+  xkbcomp -i $id ~/.lenovo-keyboard.xkb $DISPLAY >/dev/null
+done 
