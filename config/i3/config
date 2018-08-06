@@ -77,11 +77,11 @@ workspace $ws2 output DP1-2
 workspace $ws3 output DP1-2
 workspace $ws4 output DP1-2
 workspace $ws5 output DP1-2
-workspace $ws6 output DP1-2
-workspace $ws7 output DP1-2
+workspace $ws6 output DP1-3
+workspace $ws7 output DP1-3
 workspace $ws8 output DP1-2
-workspace $ws9 output DP1-1
-workspace $ws10 output DP1-1
+workspace $ws9 output DP1-2
+workspace $ws10 output DP1-2
 
 # start visual studio code editor and virtuabox on specific workspaces
 #assign [class="Code"] $ws8

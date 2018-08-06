@@ -46,6 +46,7 @@ gettext
 gimp
 git
 glibc
+go-mtpfs-git
 google-chrome
 gparted
 grep
@@ -64,6 +65,7 @@ inetutils
 iproute2
 iputils
 jfsutils
+jq
 keychain
 less
 libtool
@@ -114,6 +116,7 @@ screen
 sed
 shadow
 sshfs
+strace
 sudo
 sysfsutils
 systemd
@@ -152,6 +155,9 @@ xorg-xinit
 xorg-xinput
 xorg-xprop
 yay
+yubikey-full-disk-encryption
+yubikey-manager
+yubikey-personalization-gui
 zfs-dkms
 zoom
 zsh

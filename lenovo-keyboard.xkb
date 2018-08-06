@@ -5,7 +5,7 @@ xkb_keymap {
 
         <LALT> = 133;
         <LWIN> = 64;
-        alias <ALGR> = <LWIN>;
+        alias <RALT> = <LWIN>;
     };
 
     xkb_types "complete" {
