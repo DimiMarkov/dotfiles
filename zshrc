@@ -105,6 +105,9 @@ POWERLEVEL9K_VCS_GIT_BITBUCKET_ICON=''
 POWERLEVEL9K_VCS_GIT_GITLAB_ICON=''
 POWERLEVEL9K_VCS_GIT_ICON=''
 
+# Use ibus for fixing keybindings in vscode
+GTK_IM_MODULE=ibus
+
 function pd {
   cd $($1)
 }

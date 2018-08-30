@@ -17,6 +17,7 @@ xmodmap ~/.xmodmap
 
 # lock screen after 10 minutes
 xautolock -time 10 -locker /home/kwiesmueller/.config/i3/lock.sh &
+$HOME/go/bin/u2flock -watch -lockCmd=$HOME/.config/i3/lock.sh -lockArgs="" &
 
 # xrandr management
 ~/bin/xrefresh

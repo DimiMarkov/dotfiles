@@ -60,6 +60,7 @@ i3-gaps
 i3blocks
 i3lock
 i3status
+ibus
 imwheel
 inetutils
 iproute2
@@ -78,7 +79,6 @@ m4
 make
 man-db
 man-pages
-masterpdfeditor
 mdadm
 mercurial
 mkinitcpio-sd-zfs
@@ -93,10 +93,12 @@ openvpn
 openvpn-update-systemd-resolved
 pacman
 patch
+pavucontrol
 pciutils
 perl
 pkgconf
 polybar
+postman-bin
 procps-ng
 psmisc
 pulseaudio
@@ -115,6 +117,7 @@ s-nail
 screen
 sed
 shadow
+sl
 sshfs
 strace
 sudo
@@ -143,6 +146,7 @@ wpa_actiond
 wpa_supplicant
 xautolock
 xcalib
+xclip
 xf86-video-intel
 xfsprogs
 xiccd

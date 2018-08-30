@@ -1,3 +1,5 @@
 [user]
 	email = kwiesmueller@seibert-media.net
 	name = Kevin Wiesmueller
+[credential "https://source.developers.google.com"]
+	helper = gcloud.sh
